@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73cd7208-22d6-4cea-b64c-ab7ec85afd19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mark/Mark/spiders/mark_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aoisolas/Aoisolas/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aoisolas/Aoisolas/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aoisolas/Aoisolas/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aoisolas/Aoisolas/middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aoisolas/Aoisolas/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aoisolas/Aoisolas/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aoisolas/Aoisolas/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aoisolas/Aoisolas/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aoisolas/Aoisolas/spiders/AoiSolaSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aoisolas/Aoisolas/spiders/AoiSolaSpider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,23 +24,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="22" />
+          <entry key="pyi" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="22" />
+          <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="49" />
-          <entry key="py" value="258" />
+          <entry key="py" value="1356" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="307" />
+          <entry key="Python" value="1405" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -46,14 +51,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Mark/Mark/spiders/mark_spider.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aoisolas/Aoisolas/spiders/AoiSolaSpider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="58">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding>
-                <marker date="1537431937975" expanded="true" signature="48:49" ph="..." />
-                <marker date="1537431937975" expanded="true" signature="48:53" ph="..." />
+                <marker date="1537435467418" expanded="true" signature="107:168" ph="..." />
+                <marker date="1537435467418" expanded="true" signature="503:508" ph="..." />
+                <marker date="1537435467418" expanded="true" signature="503:921" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aoisolas/Aoisolas/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Aoisolas/Aoisolas/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <element signature="e#194#203#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aoisolas/Aoisolas/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Aoisolas/Aoisolas/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <folding>
+                <marker date="1537437346105" expanded="true" signature="443:548" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,6 +124,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Mark/Mark/spiders/mark_spider.py" />
+        <option value="$PROJECT_DIR$/Aoisolas/Aoisolas/items.py" />
+        <option value="$PROJECT_DIR$/Aoisolas/Aoisolas/middlewares.py" />
+        <option value="$PROJECT_DIR$/Aoisolas/Aoisolas/settings.py" />
+        <option value="$PROJECT_DIR$/Aoisolas/Aoisolas/spiders/AoiSolaSpider.py" />
+        <option value="$PROJECT_DIR$/Aoisolas/Aoisolas/pipelines.py" />
       </list>
     </option>
   </component>
@@ -86,10 +139,24 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1920" />
+    <option name="y" value="-31" />
+    <option name="width" value="960" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -110,19 +177,19 @@
             <path>
               <item name="Haven" type="b2602c69:ProjectViewProjectNode" />
               <item name="Haven" type="462c0819:PsiDirectoryNode" />
-              <item name="Mark" type="462c0819:PsiDirectoryNode" />
+              <item name="Aoisolas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Haven" type="b2602c69:ProjectViewProjectNode" />
               <item name="Haven" type="462c0819:PsiDirectoryNode" />
-              <item name="Mark" type="462c0819:PsiDirectoryNode" />
-              <item name="Mark" type="462c0819:PsiDirectoryNode" />
+              <item name="Aoisolas" type="462c0819:PsiDirectoryNode" />
+              <item name="Aoisolas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Haven" type="b2602c69:ProjectViewProjectNode" />
               <item name="Haven" type="462c0819:PsiDirectoryNode" />
-              <item name="Mark" type="462c0819:PsiDirectoryNode" />
-              <item name="Mark" type="462c0819:PsiDirectoryNode" />
+              <item name="Aoisolas" type="462c0819:PsiDirectoryNode" />
+              <item name="Aoisolas" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -136,7 +203,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -164,7 +231,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-39" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -173,7 +241,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" weight="0.63163596" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3655244" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -232,11 +300,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mark/Mark/spiders/mark_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="145">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <marker date="1537431937975" expanded="true" signature="48:49" ph="..." />
             <marker date="1537431937975" expanded="true" signature="48:53" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Anaconda3/pkgs/parsel-1.2.0-py36_0/Lib/site-packages/parsel/selector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2668">
+          <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="8" />
+          <folding>
+            <element signature="e#39#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#216#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aoisolas/Aoisolas/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+          <folding>
+            <marker date="1537437346105" expanded="true" signature="443:548" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aoisolas/Aoisolas/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="71" column="37" lean-forward="true" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Anaconda3/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aoisolas/Aoisolas/spiders/AoiSolaSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <marker date="1537435467418" expanded="true" signature="107:168" ph="..." />
+            <marker date="1537435467418" expanded="true" signature="503:508" ph="..." />
+            <marker date="1537435467418" expanded="true" signature="503:921" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aoisolas/Aoisolas/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aoisolas/Aoisolas/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#194#203#0" expanded="true" />
           </folding>
         </state>
       </provider>
